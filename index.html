@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TeleSUS - Painel do Paciente</title>
+<link rel="stylesheet" href="style.css
+">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">+</div>
+    <div>
+      <h1>Tele<span>SUS</span></h1>
+      <p>Mais saúde, mais perto de você</p>
+    </div>
+  </div>
+  <div class="user-chip">
+    <div class="avatar">🧑</div>
+    Olá, Angélica! ▾
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-blob"></div>
+  <div class="hero-note">Sua saúde<br>também é<br>prioridade!</div>
+  <svg class="hero-heart" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 85C50 85 15 62 15 38C15 24 25 15 37 15C43 15 48 18 50 23C52 18 57 15 63 15C75 15 85 24 85 38C85 62 50 85 50 85Z" stroke="#3a4fc7" stroke-width="6"/>
+  </svg>
+  <div class="hero-inner">
+    <h2>Olá, Angélica!</h2>
+    <p>Aqui você encontra as informações da sua próxima consulta e materiais importantes.</p>
+  </div>
+</section>
+
+<main>
+  <div class="row">
+    <div class="card-video-card">
+      <div class="video-frame">
+        <video src="./video/videoplayback.mp4" controls autoplay muted></video>
+        <div class="video-caption">
+          <div>
+            <h3>Antes da sua consulta</h3>
+            <p>Assista ao vídeo e saiba como se preparar.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="card appt-card">
+      <div class="appt-head">
+        <div class="icon-circle">📅</div>
+        <h3>Próxima consulta</h3>
+      </div>
+      <p class="lead">Sua próxima consulta está agendada para:</p>
+      <div class="appt-box">
+        <div class="item"><span class="ic">📅</span> 25 de outubro de 2026</div>
+        <div class="item"><span class="ic">🕒</span> 14:30</div>
+        <div class="item"><span class="ic">📍</span> Teleconsulta </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row2">
+    <div class="card panel">
+      <div class="panel-head">
+        <div class="icon-circle">?</div>
+        <div>
+          <h3>Dúvidas frequentes</h3>
+          <p>Encontre respostas para as principais dúvidas sobre sua consulta.</p>
+        </div>
+      </div>
+      <div class="faq-item">Como funciona a consulta? <span class="chev">⌄</span></div>
+      <div class="faq-item">O que devo levar? <span class="chev">⌄</span></div>
+      <div class="faq-item">Quanto tempo dura a consulta? <span class="chev">⌄</span></div>
+      <div class="faq-item">Como faço para remarcar? <span class="chev">⌄</span></div>
+      <div class="faq-item">Como entro em contato? <span class="chev">⌄</span></div>
+      <a href="#" class="link-more">📝 Ver todas as dúvidas ›</a>
+    </div>
+
+    <div class="card panel">
+      <div class="panel-head">
+        <div class="icon-circle" style="background:var(--green);">💊</div>
+        <div>
+          <h3>Tratamentos medicamentosos</h3>
+          <p>Confira seus medicamentos e orientações.</p>
+        </div>
+      </div>
+      <div class="med-note">
+        <span class="ic">📄</span>
+        Lembre-se de tomar seus medicamentos conforme a prescrição médica.
+      </div>
+      <div class="meds-label">Seus medicamentos</div>
+
+      <div class="med-row">
+        <div class="left">
+          <div class="med-ic">💊</div>
+          <div>
+            <div class="name">Betaferon 50mg</div>
+            <div class="desc">Dias alternados</div>
+          </div>
+        </div>
+        <span class="tag">Uso contínuo</span>
+      </div>
+      <a href="./orientacao.html" class="link-more green">📄 Ver orientações completas ›</a>
+    </div>
+  </div>
+</main>
+
+<button class="fab">? Dúvidas</button>
+
+<footer>
+  <div>
+    <span class="f-brand">TeleSUS</span>
+    <span class="divider">|</span>
+    Sistema de Teleatendimento do SUS
+  </div>
+  <div class="sus">✚ Ministério da Saúde</div>
+</footer>
+
+</body>
+</html>
